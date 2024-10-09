@@ -1,0 +1,41 @@
+.nav-barra {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 10px;
+}
+
+.nav-lista {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-elemento {
+    margin
+    : 15px;
+}
+
+.redes-lista {
+    display: flex;
+    list-style: none;
+}
+
+.redsocial {
+    margin: 4px;
+}
+
+.seccion-header {
+    display: flex;
+}
+
+.lista-logo {
+    list-style: none;
+    display: flex;
+}
+
+.logo-elemento {
+    margin: 10px;
+}
+
