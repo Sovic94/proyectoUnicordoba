@@ -51,3 +51,15 @@
     display: flex;
     justify-content: center;
 }
+
+.carrusel-final {
+    display: flex;
+}
+
+.vacio-carrusel-final {
+    padding: 100px;
+}
+
+.columnas-finales {
+    display: flex;
+}
