@@ -50,23 +50,52 @@
     font-weight: 100;
 }
 
-
-
-/*Revisión final 9 de octubre*/
-
-
-
+/*Estilo de la sección de noticias*/
 .seccion2 {
     background-color: #3e3c3c;
 }
 
+/*Estilo del div general de noticias*/
+.div-general-noticias {
+    display: flex;
+    margin-right: 20px;
+}
+
+/*Estilo de la noticia principal*/
+.noticia-principal {
+    display: block;
+}
+
+/*Estilo del div contenedor de los articulos pequeños*/
 .articulos-pequenos {
+    display: block;
+    flex-direction: column;
+    gap: 20px;
+}
+
+/*Estilo de cada articulo pequeño*/
+.articulos-bloque {
     display: flex;
 }
 
-.vacio-articulos {
-    margin: 100px;
+/*Estilo de las imagenes*/
+.articulos-pequenos img, .articulos-bloque img {
+    width: 40%;
+    margin-right: 20px;
 }
+
+/*Estilo de los figure de las noticias*/
+figure {
+    display: flex;
+    text-align: left;
+    color: white;
+    font-size: 20px;
+}
+
+/*Revisión final 10 de octubre*/
+
+
+
 
 .Eventos {
     display: flex;
