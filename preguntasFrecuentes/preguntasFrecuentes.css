@@ -1,0 +1,248 @@
+/* Estilos generales */
+body, header, menu, ul, div{
+    font-family: Open Sans, Arial, sans-serif;
+    margin: 0;
+}
+
+/* barra superior */
+#barra-superior{
+    background-color: #2EA3F2;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 3px;
+}
+
+nav a {
+    color: #ffffff; 
+    text-align: left;
+    position: relative; 
+    padding: 14px;
+    text-decoration: none; 
+    font-size: 12px;
+    line-height: 13px;
+    font-weight: 600;
+}
+
+nav a:hover{
+    color: #99cbf6;
+}
+
+
+.barra-superior .redes-lista{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    list-style: none;
+}
+
+.menu-lista{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    list-style: none;
+}
+
+.redsocial {
+    margin: 4px;
+}
+
+.small-text {
+    font-size: 12px;
+    line-height: 13px;
+    color:#ffffff;
+    font-weight: 600;
+}
+
+li{
+    list-style: none;
+}
+
+/* Barra secundaria */
+.barra-secundaria {
+    display: flex;
+    justify-content: space-between;
+    align-items: left;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+#logo-header img {
+    max-height: 45px;
+}
+
+#barra-secundaria{
+    background-color: #FFFFFF;
+}
+
+#barra-secundaria a{
+    color:#666;
+    font-size: 14px;
+    font-weight: 540;
+    line-height: 1.7em;
+}
+
+#barra-secundaria a:hover{
+    color:#929090;
+}
+
+.lista-logo {
+    display: flex;
+    gap: 20px;
+}
+
+.lista-logo .logo-elemento {
+    font-size: 14px;
+}
+
+.logo-elemento #enlace-activo{
+    color: #2EA3F2; 
+    font-weight: bold;
+}
+
+
+main{
+    font-family:'Roboto', Helvetica, Arial, Lucida, sans-serif; 
+    font-weight: 500;
+    font-size: 26px;
+    color: #000000 !important;
+    line-height: 1.2em;
+}
+
+
+/* Sección de búsqueda */
+#buscarPreguntasFrecuentes {
+    margin: 10%;
+}
+
+h2 {
+    margin-bottom: 20px; 
+}
+
+.contenedor-busqueda {
+    position: relative;
+}
+
+.contenedor-busqueda input[type="search"] {
+    width: 100%;
+    padding: 30px; 
+    font-size: 15px;
+    border: 2px solid #C17FF4; 
+    box-sizing: border-box; 
+}
+
+.icono-busqueda {
+    position: absolute;
+    justify-self: center;
+    left: 5px;
+    font-size: 20px;
+    color: #666;
+    pointer-events: none;
+}
+
+
+
+/* seccion de categorias */
+
+#categorias {
+    background-color: #F5F0EB;
+    text-align: center;
+    padding: 40px 120px;
+}
+
+.cuadricula-1{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Tres columnas */
+    grid-gap: 10px; /* Espacio entre las cartas */
+    justify-content: center; 
+    margin: 50px;
+}
+
+.cuadricula-2 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* dos columnas */
+    grid-gap: 10px;
+    justify-content: center; 
+    margin: 50px;
+}
+
+.categoria-card {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px gray;
+    text-align: center;
+    transition: transform 0.3s ease;
+}
+
+.categoria-card:hover {
+    transform: translateY(-5px); 
+}
+
+.categoria-card img {
+    width: 50px;
+    height: 50px;
+    margin-bottom: 15px;
+}
+
+.categoria-card a {
+    display: block;
+    margin-bottom: 10px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+    text-decoration: none;
+}
+
+.categoria-card a:hover{
+    color: #528FFE;
+}
+
+.categoria-card small {
+    color: #666;
+    font-size: 14px;
+}
+
+/* footer  */
+
+footer {
+    background-color: #171717; 
+    color: #fff;
+    padding: 40px 20px; 
+    text-align: center; 
+}
+
+.footer-container {
+    max-width: 1200px;
+    margin: 0 auto;
+ }
+
+footer .redes-lista {
+    list-style: none;
+    padding: 0;
+    margin-bottom: 20px; 
+    display: flex;
+    justify-content: center;
+}
+
+footer .redsocial {
+    margin: 0 15px; /* Espacio entre los íconos */
+}
+
+footer .redsocial a {
+    color: #fff; 
+    font-size: 24px;
+    transition: color 0.3s ease;
+}
+
+footer .redsocial a:hover {
+    color: #ff69b4; 
+}
+
+p {
+    font-size: 14px;
+    line-height: 1.6;
+    max-width: 800px;
+    margin: 0 auto; /* Centrar el texto */
+}
+ 
