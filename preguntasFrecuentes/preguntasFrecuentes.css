@@ -13,6 +13,17 @@ body, header, menu, ul, div{
     padding: 3px;
 }
 
+/*Estilo de lista general de redes sociales*/
+.redes-lista {
+    display: flex;
+    list-style: none;
+}
+
+/*Estilo de los elementos de la lista de redes sociales*/
+.redsocial {
+    margin: 5px;
+}
+
 nav a {
     color: #ffffff; 
     text-align: left;
